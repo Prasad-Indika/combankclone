@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Bank | Srilanka</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+   
+    <!-- Boostrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+      body{
+        font-family: 'Poppins', serif;
+      }
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg py-1 bg-body-tertiary">
+        <div class="nav1 container-fluid">
+            
+            <a class="nav-link me-2" aria-current="page" href="#">සිංහල</a>
+            <a class="nav-link me-5" aria-current="page" href="#">தமிழ்</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Branches/Atms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Investors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Overseas Operations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Search</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="Assets/srilanka.png" alt="Srilanka" class="country-image"></a>
+                        <ul class="dplinks dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img src="Assets/srilanka.png" alt="Srilanka" class="country-image"> Sri Lanka</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="Assets/bangladesh.png" alt="Srilanka" class="country-image"> Bangladesh</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="Assets/maldives.png" alt="Srilanka" class="country-image"> Maldives</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="Assets/myanmar.png" alt="Srilanka" class="country-image"> Myanmar</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            
+            </div>
+            
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- Mega nav bar  -->
+    
+    <nav class="navbar sticky-top navbar-expand-lg py-3 navbar-light" style="background-color: #ffffff;">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+            
+          
+            <!-----------------Personal banking Mega menu start------------ -->
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                Personal Banking
+              </a>
+
+              <div class="dropdown-menu shadow w-100">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+
+                    <div class="row">
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              <a onmouseover="savingAcount()" class="list-group-item" href="#">Saving Account</a>
+                              <a onmouseover="deposits()" class="list-group-item" href="#">Deposits</a>
+                              <a onmouseover="currentAcc()" class="list-group-item" href="#">Current Accounts</a>
+                              <a onmouseover="cards()" class="list-group-item" href="#">Cards</a>
+                              <a onmouseover="loans()" class="list-group-item" href="#">Loans</a>
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div id="list1" class="list-group border-0">
+                            
+
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div id="list2" class="list-group border-0">
+                             
+                            
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                        <div id="list3" class="list-group border-0">
+                           
+                          
+                        </div>
+                    </div>
+
+                    <div class="col py-3">
+                      <div id="list4" class="list-group border-0">
+                         
+                        
+                      </div>
+                    </div>
+
+                   
+                      
+                    </div>
+                 
+                  </div>
+
+                </div>
+
+              </div>
+            
+            </li>
+            <!-- ---------------End (Mega menu) -------------->
+
+             <!-----------------Business bank Mega menu start------------ -->
+             <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                Business Banking
+              </a>
+
+              <div class="dropdown-menu shadow w-100">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+
+                    <div class="row">
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              <a class="list-group-item" href="#">Corporate Banking</a>
+                              <a class="list-group-item" href="#">Trade Finance</a>
+                              <a class="list-group-item" href="#">Investment Bank</a>
+                              <a class="list-group-item" href="#">SME</a>
+                              <a class="list-group-item" href="#">Treasury</a>
+                              
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                        <div class="list-group border-0">
+                            
+                        </div>
+                    </div>
+
+                    <div class="col py-3">
+                      <div class="list-group border-0">
+                          
+                      </div>
+                  </div>
+
+                  <div class="col py-3">
+                    <div class="list-group border-0">
+                        
+                    </div>
+                </div>
+
+                     
+                      
+                    </div>
+                 
+                  </div>
+
+                </div>
+
+              </div>
+            
+            </li>
+            <!-- ------------Business banking End (Mega menu) -------------->
+
+             <!-----------------Non Residence Mega menu start------------ -->
+             <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                Non Resident Banking
+              </a>
+
+              <div class="dropdown-menu shadow w-100">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+
+                    <div class="row">
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              <a class="list-group-item" href="#">Saving Accounts</a>
+                              <a class="list-group-item" href="#">Deposits</a>
+                              <a class="list-group-item" href="#">Loans</a>
+                              <a class="list-group-item" href="#">Invesment</a>
+                              <a class="list-group-item" href="#">Sending Money</a>
+                              
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                             
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                             
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              
+                          </div>
+                      </div>
+
+                     
+
+                     
+                     
+                      
+                    </div>
+                 
+                  </div>
+
+                </div>
+
+              </div>
+            
+            </li>
+            <!-- --------------Non Resident End (Mega menu) -------------->
+
+
+             <!-----------------Services Mega menu start------------ -->
+             <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                Services
+              </a>
+
+              <div class="dropdown-menu shadow w-100">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+
+                    <div class="row">
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              <h6>Digital Banking</h6>
+                              
+                              <a class="list-group-item" href="#">Combank Digital</a>
+                              <a class="list-group-item" href="#">Combank Digital Business</a>
+                              <a class="list-group-item" href="#">Flash Digital Acc</a>
+                              <a class="list-group-item" href="#">Flash Fam Teen Acc</a>
+                              <a class="list-group-item" href="#">ePassbook</a>
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                            <h6>Other Services</h6>
+                              
+                              <a class="list-group-item" href="#">Mobile Reload</a>
+                              <a class="list-group-item" href="#">Bancassurance</a>
+                              <a class="list-group-item" href="#">Dialog eZ Cash</a>
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                          <div class="list-group border-0">
+                              <h6> Services </h6>
+                              <a class="list-group-item" href="#">Payment Gateway</a>
+                              <a class="list-group-item" href="#">Tap to phone</a>
+                              <a class="list-group-item" href="#">QR Payment</a>
+                              <a class="list-group-item" href="#">Simple Pay</a>
+                          </div>
+                      </div>
+
+                      <div class="col py-3">
+                        <div class="list-group border-0">
+                            <h6> Sending Money </h6>
+                            <a class="list-group-item" href="#">Remit Plus</a>
+                            <a class="list-group-item" href="#">Western Union</a>
+                            <a class="list-group-item" href="#">Money Gram</a>
+                            
+                        </div>
+                      </div>
+
+                      <div class="col py-3">
+                        <div class="list-group border-0">
+                            <h6>Business network</h6> 
+                            <a class="list-group-item" href="#">Commercial Bank</a>
+                            <a class="list-group-item" href="#">Trade Club</a>
+                            
+                            
+                        </div>
+                      </div>
+                                          
+                      
+                    </div>
+                 
+                  </div>
+
+                </div>
+
+              </div>
+            
+            </li>
+            <!-- ---------------End (Mega menu) -------------->
+          
+
+            
+
+           
+
+
+
+
+
+          </ul>
+
+          <button class="btnCombank"> Combank Digital</button>
+          <img src="Assets/combanklogo.JPG" alt="">
+
+
+         
+          
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- End Mega bar -->
+
+
+    <!-- 1st Carausel Start -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="Assets/img1.PNG" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <button class="roundCorner">Tell me more <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/img2.PNG" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <button class="roundCorner">Tell me more <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/img3.PNG" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <button class="roundCorner">Tell me more <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/img3.PNG" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <button class="roundCorner">Tell me more <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- End 1st Carausel -->
+
+
+    <!-- Icon Container  -->
+
+    <div class="container pt-4">
+      <div class="row">
+          <div class="col text-center">
+              <a href="#" class="iconcText">
+              <div style="height: 60px"><i class="bi bi-calculator icons"></i></i></div>
+              <h6> Tools & Calculator</h6></a>
+          </div>
+          <div class="col text-center">
+              <a href="#" class="iconcText">
+                  <div style="height: 60px"><i class="bi bi-percent icons"></i></div>
+                  <h6>Rewards & Promotions </h6>
+              </a>
+          </div>
+          <div class="col text-center">
+              <a href="#" class="iconcText">
+                  <div style="height: 60px"><i class="bi bi-graph-up-arrow icons"></i></div>
+                  <h6>Rates and Trafics</h6>
+              </a>
+          </div>
+          <div class="col text-center">
+              <a href="#" class="iconcText">
+                  <div style="height: 60px"><i class="bi bi-currency-exchange icons"></i></div>
+                  <h6>Exchange Rates</h6>
+              </a>
+          </div>
+          <div class="col text-center">
+            <a href="#" class="iconcText">
+                <div style="height: 60px"><i class="bi bi-file-earmark-text icons"></i></div>
+                <h6>Applications</h6>
+            </a>
+        </div>
+        <div class="col text-center">
+          <a href="#" class="iconcText">
+              <div style="height: 60px"><i class="bi bi-card-text icons"></i></div>
+              <h6>Important Notice</h6>
+          </a>
+      </div>
+      </div>
+  </div>
+
+   <!-- Icon Ccontainer End  -->
+
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h4>ComBank Personal Banking</h4>
+      <h1>What can we help you with today</h1>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col text-end"> <h3>Apply for</h3></div>
+      <div class="col text-start">
+
+        <!-- Dropdown -->
+        <div class="dropdown">
+          <a class="dropdwn btn btn-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Selectc One</a>
+    
+          <ul class="dropdown-menu shadow">
+            <li><a class="dropdown-item"> Saving Accounts </a></li>
+            <li><a class="dropdown-item"> Deposits </a></li>
+            <li><a class="dropdown-item"> Current Accounts </a></li>
+            <li><a class="dropdown-item"> Loans </a></li>
+          </ul>
+    
+        </div>
+        <!--  -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="d-flex justify-content-center" >
+      <button onclick="btnSavingAccount()"  class="iconButton"> <i class="bi bi-person-rolodex icon2"></i><br> Saving Accounts</button>
+      <button onclick="btnDeposit()" class="iconButton"><i class="bi bi-file-earmark-ruled icon2"></i><br>Deposits</button>
+      <button onclick="btnCurrentAccount()" class="iconButton"><i class="bi bi-pencil-square icon2"></i><br>Current Accounts</button>
+      <button onclick="btnCards()" class="iconButton"> <i class="bi bi-credit-card-2-back icon2"></i> <br>Cards</button>
+      <button onclick="btnLoans()" class="iconButton"> <i class="bi bi-cash-stack icon2"></i><br> Loans</button>
+      </div>
+      
+
+    </div>
+
+  </div>
+
+  <div id="descriptionPanel" class="btnLoads">
+    <div class="cont1">
+     
+    </div>
+    <div class="cont2">
+      <img src="Assets/loans.PNG" alt="">
+    </div>
+
+  </div>
+
+
+  <div style="background-color: rgb(40, 85, 231);">
+    <div class="d-flex justify-content-center p-4">
+      <h4 style="color: aliceblue;">Be your own bank</h4>
+
+    </div>
+
+    <div class="d-flex justify-content-center p-4">
+      <button class="roundCorner">   Self-Registration Potal </button>
+      <button class="roundCorner"> Track Remittance </button>
+      <button class="roundCorner"> Credit Card Payments </button>
+      <button class="roundCorner"> Prepaid Card Balance </button>
+      
+      
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <!--Cards Start -->
+  
+  <div class="container text-center">
+
+    <div class="row mt-5 mb-4">
+      <h1>Choose the Card that fits you</h1>
+    </div>
+
+
+    <div class="row">
+      
+      <div class="col d-flex justify-content-center">
+  
+        <a href="#" class="card mb-3 shadow text-decoration-none" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="Assets/card1.PNG" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Gold/Silver Credit Cards</h5>
+                <p class="card-text">Enjoy life to the fullest with a combank Credit Card.</p>
+                
+              </div>
+            </div>
+          </div>
+        </a>
+  
+  
+      </div>
+  
+  
+      <div class="col d-flex justify-content-center">
+        <a href="#" class="card mb-3 shadow text-decoration-none" style="max-width: 540px;">
+
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="Assets/card2.PNG" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Clcassic Debit Cards</h5>
+                <p class="card-text">Makes your life easy.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+  
+  
+      <div class="col d-flex justify-content-center">
+        <a href="#" class="card mb-3 shadow text-decoration-none" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="Assets/card3.PNG" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Visa Infinite Card</h5>
+                <p class="card-text">A range of privileges at your disposal.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+  
+  
+    </div>
+
+    <div class="m-5">
+
+      <button class="roundCorner">View All Cards <i class="bi bi-arrow-right"></i></button>
+
+    </div>
+  </div>
+
+  <!-- End cards   -->
+
+
+  <!-- 2nd Carausel Start -->
+
+  <div id="carouselExampleIndicators2" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="Assets/discountimg1.PNG" class="d-block w-100" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <button class="roundCorner">Tell me more</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/discountimg2.PNG" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/discountimg3.PNG" class="d-block w-100" alt="">
+      </div>
+      
+
+    </div>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- End 2nd Carausel  -->
+
+
+  <!-- Mobile Apps Start -->
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col text-end"> <img src="Assets/smartphone.PNG"> </div>
+
+      <div class="col">
+
+        <div class="d-flex flex-row mt-5">
+          <img src="Assets/logocom.PNG">
+        </div>
+
+        <div class="d-flex flex-row mt-3">
+          <h3>ComBank</h3>
+        </div>
+
+        <div class="d-flex flex-row mt-3">
+          <p>With ComBank App You can install multiple Apps of Commercial Bank with just one click. Simply register for the Apps you need and experience a variety of banking services through your mobile.</p>
+        </div>
+
+        <div class="d-flex flex-row mt-3">
+          <img src="Assets/googleplay.PNG" alt="google">
+          <img src="Assets/appstore.PNG" alt="apple">
+          
+        </div>
+
+        <div class="d-flex flex-row mt-3">
+          <button class="roundCorner">Tell Me More <i class="bi bi-arrow-right"></i></button>
+        </div>
+
+        
+
+      </div>
+
+    </div> 
+
+  </div>
+
+  <!--  End   -->
+
+
+
+  <!-- ==========   Logo Button Start ======= -->
+  
+  <div class="container mt-5 mb-5">
+
+    <div class="row">
+
+      <div class="col">
+        <button class="logoButton"><img src="Assets/logocom.PNG" alt=""> ComBank</button>
+      </div>
+      <div class="col">
+        <button class="logoButton"><img src="Assets/logodigital.PNG" alt=""> ComBank Digital</button>
+      </div>
+      <div class="col">
+        <button class="logoButton"><img src="Assets/logoflash.PNG" alt=""> Flash Digital Bank</button>
+      </div>
+      <div class="col">
+        <button class="logoButton"><img src="Assets/logoq.PNG" alt=""> Q+ Payment App</button>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col">
+        <button class="logoButton"><img src="Assets/logoeslip.PNG" alt=""> eSlip</button>
+      </div>
+      <div class="col">
+        <button class="logoButton"><img src="Assets/logoremit.PNG" alt=""> RemitPlus</button>
+      </div>
+      <div class="col">
+        <button class="logoButton"><img src="Assets/logoepass.PNG" alt=""> ePassbook</button>
+      </div>
+      <div class="col">
+       
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------------ Logo Button End --------->
+
+  
+  <!-- =========== Video Start ======== -->
+
+  <iframe width="100%" height="450" src="https://www.youtube.com/embed/B359YHdT5_A" frameborder="0" allowfullscreen></iframe>
+
+  <!-- Video End -->
+
+
+  <div class="container mt-5 mb-5">
+    <div class="row text-center">
+      <h1>How can we help?</h1>
+      <h6>if you`d like more help & information , you can:</h6>
+    </div>
+    <div class="row text-center mt-4">
+      <div class="col">
+        <h5>Rate us</h5>
+        <a href="#"> Your feedback </a>
+      </div>
+      <div class="col">
+        <h5>Visit us in</h5>
+        <a href="#"> Your local branch </a>
+      </div>
+      <div class="col">
+        <h5>Call us to</h5>
+        <a href="#"> Talk to an Advisor </a>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  <!-- List start -->
+
+  <div class="bgBlue">
+
+        <div class="row text-center">
+         
+  
+  
+        </div>
+
+        <div class="row mt-5 pb-5">
+          <div class="col ">
+            <ul class="list-group ">
+              <h6>Quick Links</h6>
+              <li class="list-group-item bottomLinks"><a class="decorationNone" href="">Correspondent</a></li>
+              <li class="list-group-item bottomLinks">CBSL-Customer</li>
+              <li class="list-group-item bottomLinks">Complaints and Grievances</li>
+              <li class="list-group-item bottomLinks">Registering US persons under Foreign</li>
+              <li class="list-group-item bottomLinks">Card Dispute Management Policy</li>
+              <li class="list-group-item bottomLinks">Properties for Sale</li>
+              <li class="list-group-item bottomLinks">Anti-Bribery and Anti-Corruption Policy</li>
+            </ul>
+  
+          </div>
+  
+          <div class="col">
+            <ul class="list-group">
+              <h6>About Us</h6>
+              <li class="list-group-item bottomLinks">Our History</li>
+              <li class="list-group-item bottomLinks">Achicevements</li>
+              <li class="list-group-item bottomLinks">Social Responsibility</li>
+              <li class="list-group-item bottomLinks">Careers</li>
+              <li class="list-group-item bottomLinks">Latest Market</li>
+            </ul>
+            
+          </div>
+  
+          <div class="col">
+            <ul class="list-group">
+              <h6>Personal Banking</h6>
+              <li class="list-group-item bottomLinks">Saving Accounts</li>
+              <li class="list-group-item bottomLinks">Deposits</li>
+              <li class="list-group-item bottomLinks">Current Accounts</li>
+              <li class="list-group-item bottomLinks">Cards</li>
+              <li class="list-group-item bottomLinks">Loans</li>
+            </ul>
+            
+          </div>
+  
+          <div class="col">
+            <ul class="list-group">
+              <h6>Business Banking</h6>
+              <li class="list-group-item bottomLinks">Corporate Banking</li>
+              <li class="list-group-item bottomLinks">Trade Finance</li>
+              <li class="list-group-item bottomLinks">SME</li>
+              
+            </ul>
+            
+          </div>
+  
+          <div class="col">
+            <ul class="list-group">
+              <h6>Non Resident Banking</h6>
+              <li class="list-group-item bottomLinks">Saving Accounts</li>
+              <li class="list-group-item bottomLinks">Deposits</li>
+              <li class="list-group-item bottomLinks">Loans</li>
+              <li class="list-group-item bottomLinks">Invesments</li>
+              <li class="list-group-item bottomLinks">Sending Money</li>
+            </ul>
+            
+          </div>
+  
+        </div>
+  </div>
+  
+  <!-- End  -->
+
+  <div class="text-center bgDarkBlue pt-5 pb-5">
+    <h5 class="fontWhite">Commercial Bank Of Ceylon PLC</h5>
+    <p class="m-2 fontWhite">Commercial House, No 21, Sir Razik Fareed Mawatha, P.O. Box 856 Colombo 01, Srilanka</p>
+    <p class="m-2 fontGray">Legal Notice | Accessibility | Security Measures</p>
+    <p class="m-2 fontGray">© 2023 Commercial Bank of Ceylon PLC All Rights Reserved.</p>
+    <p class="m-2 fontGray">Design & Development by</p>
+
+  </div>
+
+
+
+
+    
+
+    <script src="menu.js" type="text/Javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
