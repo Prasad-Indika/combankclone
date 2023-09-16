@@ -96,6 +96,10 @@
     
 }
 
+.iconButton:hover .icon2{
+    color: white;
+}
+
 .btnLoads{
    
     
@@ -117,6 +121,7 @@
     width: 40%;
   
 }
+
 
 
 .roundCorner{
@@ -181,3 +186,29 @@
     border: 0px;
 }
 
+
+
+.card{
+    transition:transform 0.5s;
+}
+
+.card:hover{
+    background-color:  rgb(9, 89, 200);
+    color: white;
+    transform: scale(0.97);
+}
+
+
+.btncard{
+   
+    visibility: hidden;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.card:hover .btncard{
+    visibility: visible;
+    
+}
