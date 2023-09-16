@@ -212,3 +212,28 @@
     visibility: visible;
     
 }
+
+
+.fixed-button{
+    position: fixed;
+    right: 20px;
+    top: 50px;
+
+    
+    display: grid;
+    place-items: center;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(225, 226, 231);
+    border-radius: 30px;
+
+}
+
+
+.fixed-chat{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    
+}
